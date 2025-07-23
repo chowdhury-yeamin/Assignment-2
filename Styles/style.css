@@ -1,0 +1,33 @@
+ *{
+    margin: 0;
+    padding: 0;
+    
+ }
+
+.container{
+  max-width:80%;
+  margin: auto;
+  }
+
+ .header-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav li{
+    list-style: none;
+    
+}
+nav a {
+    text-decoration: none;
+    color: #707070;
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+}
+
+.header-navbar-img{
+    width: 135px;
+}
