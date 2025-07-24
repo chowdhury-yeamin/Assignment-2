@@ -144,23 +144,53 @@ nav ul{
 
 /* Write section */
 
-.e-mail-section{
+.e-mail-section {
     background-image: url(../assets/news-letter-bg.png);
-    font-size: 2em;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 533px;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 533px;
+    text-align: center;
 }
 
-/* .e-mail-sec-description{
+.e-mail-sec-description {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-items: center;
-} */
+    gap: 1rem;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%;
+}
 
-.e-mail-section-img{
-    width: 100%;
-    height: 100%;}
+.e-mail-title{
+    font-size: 3rem;
+}
+
+.textarea-btn{
+    display: flex;
+    gap: 0;
+    border: none;
+}
+
+.e-mail-area{
+    padding: 5px 540px 5px 10px;
+}
+
+.footer-btn{
+    color: white;
+    background-color: #E95A08;
+    border: none;
+    padding: 19px 53px;
+}
+
+
+
 
 /* Phone Responsive */
 
