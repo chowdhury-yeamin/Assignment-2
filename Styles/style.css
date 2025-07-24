@@ -189,7 +189,31 @@ nav ul{
     padding: 19px 53px;
 }
 
+/* Footer bottom ,navbar , logo of social media */
 
+.footer-bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items:center ;
+    background-color: white;
+    max-height: 348px;
+    margin-bottom: 50px;
+}
+
+
+.footer-navbar li{
+    list-style: none;
+}
+.footer-navbar li a{
+    text-decoration: none;
+    color:#707070;
+}
+
+.footer-navbar-icons{
+    display: flex;
+    gap: 20px;
+}
 
 
 /* Phone Responsive */
